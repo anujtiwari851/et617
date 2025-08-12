@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginLink = document.querySelector(".login-link");
     const registerLink = document.querySelector(".register-link");
 
-    // Show Register Form
+   
     registerLink.addEventListener("click", (e) => {
         e.preventDefault();
         logregBox.classList.add("active");
     });
 
-    // Show Login Form
+   
     loginLink.addEventListener("click", (e) => {
         e.preventDefault();
         logregBox.classList.remove("active");
     });
 
-    // Optional: Clear input fields when switching
+   
     function clearInputs(form) {
         form.querySelectorAll("input").forEach(input => {
             if (input.type !== "checkbox") {
