@@ -16,7 +16,7 @@ The goal is to make learning interactive and track user progress.
 ## Getting Started
 
 ### Prerequisites
-- PHP-enabled web server (XAMPP, WAMP, or similar)
+- PHP-enabled web server (XAMPP)
 - MySQL database
 - Modern web browser
 
